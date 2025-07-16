@@ -40,6 +40,7 @@
   gap: 10px;
   border-radius: 39px;
   border: 1.5px solid #FFF;
+  cursor: pointer;
 }
 @media only screen and (max-width: 767px) {
   .hd-main {

@@ -14,6 +14,7 @@ import frame2 from "../../assets/images/frame2.svg";
 import frame3 from "../../assets/images/frame3.svg";
 import frame4 from "../../assets/images/frame4.svg";
 import frame5 from "../../assets/images/frame5.svg";
+import { Element } from 'react-scroll';
 
 const Footer = () => {
   return (
@@ -61,7 +62,7 @@ const Footer = () => {
 
       </div>
 
-
+      <Element name="footerSection">
       <div className="ftr-section">
         <div className="ftr-center">
           <h3>precilo health</h3>
@@ -77,6 +78,8 @@ const Footer = () => {
           <span>WhatsApp : +91 98994 83885</span>
         </div>
       </div>
+
+      </Element>
 
 
       {/* <div className="ftr-left-mid">

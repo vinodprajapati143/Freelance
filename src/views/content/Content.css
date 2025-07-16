@@ -63,6 +63,7 @@
   border-radius: 39px;
   border: 1.5px solid #FFF;
   background-color: #FFF;
+  cursor: pointer;
 }
 .cnt-txt2 {
   color: #fff;

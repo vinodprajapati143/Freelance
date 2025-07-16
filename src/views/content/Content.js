@@ -9,6 +9,8 @@ import { RiAwardFill } from "react-icons/ri";
 import { LuFlower2 } from "react-icons/lu";
 import { IoMdTrophy } from "react-icons/io";
 import ReactStars from "react-rating-stars-component";
+import { Link } from 'react-scroll';
+
 
 const content = () => {
   const ratingChanged = (newRating) => {
@@ -24,9 +26,12 @@ const content = () => {
             <span>Innovative Medical Devices</span>
             <span>and Med-Technologies</span>
           </h2>
+          <Link to="footerSection" smooth={true} duration={500}>
+          
           <div className="text_name">
             <span>Get in Touch</span>
           </div>
+          </Link>
 
         </div>
         <div className="cnt-right">

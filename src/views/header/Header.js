@@ -3,6 +3,7 @@ import "./Header.css";
 import { CiSettings } from "react-icons/ci";
 import logo from "../../assets/logo.svg";
 import frame06 from "../../assets/images/frame06.svg"
+import { Link } from 'react-scroll';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,9 +30,11 @@ const Header = () => {
         )}
       </div> */}
 
-      <div className="text-name">
+     <Link to="footerSection" smooth={true} duration={500}>
+      <div className="text-name cursor-pointer">
         <span>Get in Touch</span>
       </div>
+    </Link>
       {/* <div className={`hd-menu ${isOpen ? "open" : "close"}`}>
         <button
           className={`hd-btn1 ${
