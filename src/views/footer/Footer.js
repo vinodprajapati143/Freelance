@@ -62,7 +62,7 @@ const Footer = () => {
 
       </div>
 
-      <Element name="footerSection">
+      <Element name="footerSection" className="ftr-option">
       <div className="ftr-section">
         <div className="ftr-center">
           <h3>precilo health</h3>

@@ -26,11 +26,10 @@ const content = () => {
             <span>Innovative Medical Devices</span>
             <span>and Med-Technologies</span>
           </h2>
-          <Link to="footerSection" smooth={true} duration={500}>
-          
-          <div className="text_name">
-            <span>Get in Touch</span>
-          </div>
+          <Link to="footerSection" className="cnt-option" smooth={true} duration={500}>          
+            <div className="text_name">
+              <span>Get in Touch</span>
+            </div>
           </Link>
 
         </div>

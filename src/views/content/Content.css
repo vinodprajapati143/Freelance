@@ -23,7 +23,7 @@
 .cnt-left-main {
   display: flex;
   justify-content: space-between;
-  padding: 50px;
+  padding: 36px;
   background-image: url("../../assets/contentwave.svg");
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -35,6 +35,7 @@
   justify-content: start;
   padding-top: 60px;
 }
+
 .cnt-left {
   display: flex;
   flex-direction: column;
@@ -189,9 +190,12 @@
   color: white;
 }
 @media only screen and (max-width: 767px) {
-  /* .cnt-cmgsoon {
-    width: 0;
-  } */
+  .cnt-option{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
   .cnt-left-section{
     align-items: center;
     padding-top: 0;
