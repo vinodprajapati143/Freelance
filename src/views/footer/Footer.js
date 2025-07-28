@@ -21,7 +21,7 @@ const Footer = () => {
 
 
     <div className="ftr-main">
-      <div className="ftr-section-1">
+      {/* <div className="ftr-section-1">
         <div className="ftr-section-2">
           Supported & Sponsored By
         </div>
@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
         </div>
 
-      </div>
+      </div> */}
       <div className="ftr-section-4">
         <h4 className="ftr-left-ttl2">
           <span className="sub-name" >Our Core Values</span>  <span>Innovation guided by precision, automation, technology, and intelligence.</span>
@@ -73,9 +73,9 @@ const Footer = () => {
           <img src={frame1} alt="image" className="ftr-img1" />
         </div>
         <div className="ftr-text-section">
-          <span>Precilo Health and Technology LLP</span>
+          <span>Precilo Health and Technology</span>
           <span>Contact Us : team@precilo.space</span>
-          <span>WhatsApp : +91 98994 83885</span>
+          {/* <span>WhatsApp : +91 98994 83885</span> */}
         </div>
       </div>
 

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Header.css";
 import { CiSettings } from "react-icons/ci";
 import logo from "../../assets/logo.svg";
-import frame06 from "../../assets/images/frame06.svg"
+import precilo from "../../assets/images/precilo.svg"
 import { Link } from 'react-scroll';
 
 const Header = () => {
@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <div className="hd-main">
-      <img src={frame06} alt="hfavire" className="logo" />
+      <img src={precilo} alt="hfavire" className="logo" />
       {/* <img src={logo} alt="hfavire" className="logo" /> */}
 
       {/* <div className="hd-hamburger" onClick={toggleMenu}>
