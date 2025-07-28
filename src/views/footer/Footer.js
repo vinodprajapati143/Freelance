@@ -65,15 +65,15 @@ const Footer = () => {
       <Element name="footerSection" className="ftr-option">
       <div className="ftr-section">
         <div className="ftr-center">
-          <h3>precilo health</h3>
-          <span>AND technologies</span>
+          <h3>Precilo </h3>
+          {/* <span>AND technologies</span> */}
         </div>
         <h1>Empowering MedTech.</h1>
         <div className="ftr-img">
           <img src={frame1} alt="image" className="ftr-img1" />
         </div>
         <div className="ftr-text-section">
-          <span>Precilo Health and Technology</span>
+          <span>Health and Care Always</span>
           <span>Contact Us : team@precilo.space</span>
           {/* <span>WhatsApp : +91 98994 83885</span> */}
         </div>
