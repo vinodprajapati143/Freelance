@@ -164,31 +164,6 @@ h1{
   display: none;
 }
 
-/* .ftr-main::before {
-  left: 0;
-  clip-path: polygon(0 0, 100% 100%, 0 100%);
-}
-
-.ftr-main::after {
-  right: 0;
-  clip-path: polygon(100% 0, 0 100%, 100% 100%);
-} */
-/* .ftr-main::before {
-  content: "";
-  position: absolute;
-  bottom: 50%; 
-  left: 0;
-  width: 100vw;
-  height: 8%;
-  background-image: linear-gradient(
-    to right,
-    orange 0%,
-    transparent 50%,
-    orange 100%
-  );
-  border-radius: 50% 50% 0 0 / 50% 50% 0 0;
-} */
-
 .ftr-section-1 {
   background-color: #fff8f2;
   padding: 40px 20px;

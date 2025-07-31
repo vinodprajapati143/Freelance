@@ -1,6 +1,3 @@
-import React from "react";
-import { GrTrophy } from "react-icons/gr";
-import { IoMdTrophy } from "react-icons/io";
 import frame9 from "../../src/assets/images/frame9.svg"
 import frame8 from "../assets/images/frame8.svg"
 import frame01 from "../assets/images/frame01.svg"
